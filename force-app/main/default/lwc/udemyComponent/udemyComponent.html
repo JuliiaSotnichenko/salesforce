@@ -1,0 +1,17 @@
+<template>
+    <lightning-card  title="Welcome on the Home Page">
+        <lightning-input type="text"
+             label="Enter your name"
+              value="Enter your name"
+              onchange={handleOnChange}>
+        </lightning-input>
+        <lightning-input type="text" label="Enter your password" value="Enter your password"></lightning-input>
+        <lightning-button onclick={greetings}  type="submit" name="Submit" label="submit" class="slds-m-top_medium"></lightning-button>
+        <div>
+            <p>My name is {myName}</p>
+            <p>The language I speak is {myFavoriteLanguage}</p>
+        </div>
+         
+        
+    </lightning-card>
+</template>
