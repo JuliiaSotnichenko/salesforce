@@ -14,7 +14,6 @@ describe('c-udemy-component', () => {
         const element = createElement('c-udemy-component', {
             is: UdemyComponent
         });
-
         // Act
         document.body.appendChild(element);
 
